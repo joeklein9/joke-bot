@@ -1,0 +1,44 @@
+.main {
+    display:flex;
+    flex-direction:column; 
+    justify-content:center;
+    align-items:center;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    text-align:center; 
+    background-color:red;
+    color:white;
+    border-radius:50px; 
+    height:100px;
+    width:100px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    border-style:double;
+}
+
+#joke-setup {
+    margin-top:50px;
+    max-width:450px;
+    color:lightcoral;
+    font-weight:bold;
+    font-family: 'Caveat', cursive;
+    font-size:40px;
+
+}
+
+#joke-punchline {
+    margin-top:100px;
+    margin-top:50px;
+    max-width:450px;
+    color:darkgreen;
+    font-weight:bold;
+    font-family: 'Caveat', cursive;
+    font-size:40px;
+
+}
+
+.fun {
+    background-color: yellow;
+
+}
