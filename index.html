@@ -1,25 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joke Bot</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class = "main">
-        <h1>🤖JOKE BOT🤖</h1>
-        <button id = "joke-button">PRESS HERE FOR A HILARIOUS JOKE</button>
-        <div class = "joke-setup" id = "joke-setup"></div>
-        <div class = "joke-punchline" id = "joke-punchline"></div>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
-    </div>
-
-    <script src="script.js" script type="module"></script>
-
-</body>
+        <link rel="stylesheet" href="index.css">
+        <title>Mr.Pettypiece's Dashboard</title>
+    </head>
+    <body>
+        <main class = "wrapper">    
+            <div class="top">
+                <h1 id = "welcome" style = "text-align:center">Welcome to Mr. Pettypiece's class!</h1>
+                <div id="weather"></div>
+            </div>
+            <h1 id="time" class="time"></h1>
+            <div class = "jokes-container">
+                <h1 id = "joke-setup"></h1>
+                <h1 id = "joke-punchline"></h1>
+            </div>
+            <h1 id ="date" class = "date"></h1>
+            
+            
+            <p id="author"></p>
+        </main>
+        <script src="index.js"></script>
+    </body>
 </html>
